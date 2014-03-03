@@ -6,7 +6,6 @@ ChatApp	- with Angular
 ======================
 
 
-	INFO sindri var hér
 ===================											   
  * Created with sublime text 2                     
  * User: Sindri Þór Stefánsson (sindri12)          
