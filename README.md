@@ -15,7 +15,8 @@ ChatApp	- with Angular
 
 
 	SETUP	
-====================										
+====================				
+   INFO: 						
    For setting up before programing this project    
    it is necessary have setup npm, node, grunt and  
    bower. 											
