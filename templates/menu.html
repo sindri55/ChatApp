@@ -1,0 +1,50 @@
+<!-- 
+	Menu where each avalable room is displayed and function to create 
+	a new room
+-->
+<div class="menua">
+	<div class="container">
+		<h2>Create or pick a room to join</h2>
+		<div>
+			<button type="button" class="btn btn-labeled btn-warning" onclick="window.location='/#/';">
+	            <span class="btn-label">
+	               	<i class="glyphicon glyphicon-bookmark"></i>
+	            </span> 
+	            Change User
+           	 </button>
+        </div>
+		<div class="well">
+			<div class="row">
+				<div class="col-md-9 col-xs-9">
+					<ul style="list-style: none">
+						<h3>Create irc room</h3>
+						<input ng-model="roomName" placeholder="Insert roomName"></input> 
+						<button ng-click="createRoom()">Create!</button>
+						<p ng-bind="message"></p>
+					</ul>
+				</div>
+				<div class="span8" style="float: right; padding-right: 50px;">
+				<h4>List of rooms: </h4> 
+				</br>
+				<ul ng-repeat="ruum in temprooms">
+					<button type="button" class="btn btn-labeled btn-success">
+ 						<span class="btn-label">
+ 							<i class="glyphicon glyphicon-thumbs-up"></i>
+               			</span> 
+ 						<a href="#/room/{{ruum}}">
+							{{ ruum }} 
+										
+					</button>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+
+
+
+
+
